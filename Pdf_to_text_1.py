@@ -60,7 +60,7 @@ def main():
     uploaded_file = st.file_uploader("Upload PDF", type=['pdf'])
 
     # Language selection
-    target_lang = st.selctbox("Select Language for Translation", ["English", "Hindi", "Marathi", "Gujarati", "Tamil", "Bengali", "Kannada"])
+    target_lang = st.selectbox("Select Language for Translation", ["English", "Hindi", "Marathi", "Gujarati", "Tamil", "Bengali", "Kannada"])
 
     lang_code_mapping = {
         "English": "en",
